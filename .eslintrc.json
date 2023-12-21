@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    // Disable the specific rule
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "no-console": 1
+  }
 }
